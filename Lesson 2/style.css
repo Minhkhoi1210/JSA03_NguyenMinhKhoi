@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Dosis', sans-serif;;
+    scroll-padding-top: 1rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    color: #333;}
+
+    body{
+        height: auto;
+        width: auto;
+        font-family:'Dosis', sans-serif;
+    }
+  
+    .container{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+         url(https://khuchieunghi.github.io/JSA03-khuchieunghi/public/background.png);
+    height: 100vh;
+    flex-direction: column;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+ .s-time span{
+   
+    color: white;
+   
+    font-size: 24px;
+
+ }
+ .all span{
+    
+    color: white;
+    font-size: 24px;
+ }
+ .container h1{
+    color: white;
+    
+    display: block;
+    text-align: center;
+    padding-top: 4rem;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+ }
+ sub{
+    color: white;
+    display: block;
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 24px;
+    padding-bottom: 2rem;
+    line-height: 0;
+    vertical-align: center;
+ }
+
+ .container .btn-dis{
+    display: block;
+    justify-content: center;
+    margin-top: 24px;
+    background-color: rgb(255, 197, 0);
+    border: transparent;
+    color: rgb(72, 72, 72);
+    border-radius: 8px;
+    padding: 24px;
+    font-size: 24px;
+    width: 300px;
+    font-weight: bold;
+    cursor: pointer;
+ }
+.container .btn-check{
+    display: block;
+    margin-top: 24px;
+    background-color: #1890ff;
+    border: transparent;
+    color: white;
+    border-radius: 8px;
+    width: 300px;
+    height: 48px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.container .btn-del{
+    margin-top: 24px;
+    display: block;
+    background-color: red;
+    border: transparent;
+    color: white;
+    border-radius: 8px;
+    width: 300px;
+    height: 48px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.container .btn-dis{
+    align-items: center;
+    justify-content: center;
+}
+.gird{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+   
+   
+
+}
+.grid img{
+ 
+    height: auto;
+    width: 24%;
+    line-height: 0;
+    border-style: none;
+    vertical-align:bottom;
+    opacity: 0.8;
+    transform: scale(1.);
+       
+}
+.buttonn {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,299 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    color: #333;
+}
+
+.btn{
+    background-color: #e67e22;
+    font-weight: 600;
+    color: #fff;
+    padding: 1rem 2rem;
+    border: 3px solid #e67e22;
+    font-size: 1.3rem;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* HEADER=========================== */
+
+header{
+    padding: 1rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fdf2e9;
+}
+
+header .header-logo{
+    width: 150px;
+}
+
+header .header-logo img{
+    width: 100%;
+}
+
+.nav-link ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 5rem;
+}
+
+.nav-link ul li a{
+    color: #333;
+    text-decoration: none;
+    font-size: 1.16rem;
+    font-weight: 500;
+}
+
+.nav-link ul li:hover a{
+    color: #e67e22;
+}
+
+.nav-link ul li .btn{
+    padding: 0.5rem 1.5rem;
+    font-size: 1.16rem;
+}
+
+/* HERO-SECTION========================== */
+
+.hero-section{
+    background-color: #fdf2e9;
+    padding-bottom: 100px;
+}
+
+.hero-section .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.hero-section .hero-content{
+    width: 48%;
+}
+
+.hero-section .hero-content .hero-title{
+    font-size: 3.1rem;
+    line-height: 1;
+}
+
+.hero-section .hero-content .hero-description{
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 8% 0 9%;
+}
+
+.hero-section .hero-content .btn-box{
+    display: flex;
+    gap: 20px;
+}
+
+.hero-section .hero-content .btn-box .btn-outline{
+    background-color: #fff;
+    border: 3px solid transparent;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.3rem;
+    transition: 0.5s linear;
+}
+
+.hero-section .hero-content .btn-box .btn-outline:hover{
+    background-color: transparent;
+    border: 3px solid #e67e22;
+    transition: 0.5s linear;
+}
+
+.hero-section .meal-delivered{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 4rem;
+}
+
+.hero-section .meal-delivered .meal-delivered-image-box{
+    display: flex;
+    /* align-items: center; */
+    margin-left: 10px;
+}
+
+.hero-section .meal-delivered .meal-delivered-image-box .meal-delivered-image{
+    width: 35px;
+    height: 35px;
+    margin-left: -10px;
+    border-radius: 50%;
+    border: 3px solid #fdf2e9;
+    overflow: hidden;
+}
+.hero-section .meal-delivered .meal-delivered-image-box .meal-delivered-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-section .meal-delivered-text{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.hero-section .meal-delivered-text span{
+    color: #e67e22;
+}
+
+.hero-section .hero-image{
+    width: 48%;
+}
+
+.hero-section .hero-image img{
+    width: 100%;
+}
+
+/* FEATURED================================ */
+
+.featured-section{
+    padding: 50px 0 100px;
+}
+
+.featured-section h2{
+    color: gray;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+.featured-section .featured-img-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.featured-section .featured-img-box .featured-img{
+    height: 40px;
+}
+
+.featured-section .featured-img-box .featured-img img{
+    height: 100%;
+    filter: brightness(0);
+    opacity: 50%;
+}
+
+/* HOW IT WORKS SECTION=================== */
+
+/* .how-section{
+} */
+
+.how-section .how-heading{
+    margin-bottom: 100px;
+}
+
+.how-section .how-heading p{
+    color: #e67e22;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.how-section .how-heading h2{
+    font-size: 45px;
+}
+
+/* .how-section .how-main{
+} */
+
+.how-section .how-main .how-item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px 0;
+}
+
+.how-section .how-main .how-item:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+.how-section .how-main .how-content,
+.how-section .how-main .how-img{
+    width: 50%;
+}
+
+.how-section .how-main .how-content .how-number{
+    font-size: 75px;
+    font-weight: bold;
+    color: #d1d1d1;
+}
+
+.how-section .how-main .how-content h3{
+    font-size: 30px;
+    padding: 0.6rem 0 2.2rem;
+}
+
+.how-section .how-main .how-content .how-description{
+    font-size: 18px;
+    line-height: 2;
+}
+
+.how-section .how-main .how-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.how-section .how-main .how-img{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.how-section .how-main .how-img img{
+    width: 35%;
+}
+
+.how-section .how-main .how-img::before{
+    width: 60%;
+    padding-bottom: 60%;
+    border-radius: 50%;
+    background: #fdf2e9;
+    z-index: -2;
+}
+
+.how-section .how-main .how-img::after{
+    width: 45%;
+    padding-bottom: 45%;
+    border-radius: 50%;
+    background: #fae5d3;
+}
+
+.how-section .how-main .how-img::before,
+.how-section .how-main .how-img::after{
+    content:'';
+    position: absolute;
+    z-index: -1;
+}
+
+/* MEALS==================================== */
+
+.meals-section .meals-heading{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.meals-section .meals-heading p{
+    color: #e67e22;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.meals-section .meals-heading h2{
+    font-size: 45px;
+}
